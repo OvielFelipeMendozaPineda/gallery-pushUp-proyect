@@ -31,7 +31,7 @@ class Carousel extends HTMLElement {
     
     async fetchImages() {
         try {
-            const response = await fetch('../../../assets/data.json');
+            const response = await fetch('./assets/data.json');
             if (!response.ok) {
                 throw new Error('No se pudo encontrar el archivo');
             }
