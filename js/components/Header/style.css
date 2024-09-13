@@ -39,12 +39,12 @@ header {
   background-color: rgb(219, 219, 219);
 }
 
-.bx {
+.bx-menu {
   display: none;
 }
 
 @media (max-width: 1024px) {
-  .bx {
+  .bx-menu {
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,0 +1,29 @@
+
+.template {
+    width: 100vw;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 70%;
+
+    
+}
+.template-bg{
+    background-color: black;
+}
+.arrow {
+    align-self: center;
+    justify-self: center;
+    font-size: 5rem;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+}
+
+.arrow:hover {
+    background-color: rgba(235, 235, 235, 0.13);
+}
+
