@@ -7,12 +7,17 @@
 
 /* componentes  */
 .cards {
-    padding: 5rem 20rem;
+    padding: 5rem 18rem ;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    justify-content: space-around;
-    perspective: 1000px; /* Añadir perspectiva al contenedor */
+    justify-content: center;
+
+}
+.cards-title{
+    width: 100%;
+    text-align: center;
+    padding: 2.5rem 0;
 }
 
 .card {
@@ -20,7 +25,7 @@
     transition: transform 0.3s ease; /* Añadir una transición suave */
 }
 
-.card:hover {
+.card:hover  {
     transform: rotateY(180deg);
 }
 .card:hover .card-img{
@@ -57,5 +62,6 @@
 @media (max-width: 1024px) {
     .cards {
         padding: 1rem 0;
+        justify-content: center;
     }
 }
