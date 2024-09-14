@@ -2,6 +2,60 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /* componentes  */
+.cards {
+    padding: 5rem 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    perspective: 1000px; /* Añadir perspectiva al contenedor */
+}
+
+.card {
+    width: 300px;
+    transition: transform 0.3s ease; /* Añadir una transición suave */
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+.card:hover .card-img{
+    visibility: hidden;
+}
+.card:hover .card-title,
+.card:hover .card-desc {
+    visibility: visible;
+}
+.card-img {
+    width: 300px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-title {
+    visibility: hidden;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    font-weight: 600;
+}
+
+.card-desc {
+    visibility: hidden;
+    width: 100%;
+    text-align: justify;
+    color: rgb(110, 110, 110);
+    font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+    .cards {
+        padding: 1rem 0;
+    }
+}
