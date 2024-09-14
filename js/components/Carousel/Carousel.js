@@ -16,7 +16,6 @@ class Carousel extends HTMLElement {
         this.innerHTML = /* html */ `
         <style>
             @import "./js/components/Carousel/style.css";
-            /* Agrega estilos aquí si no quieres usar un archivo externo */
         </style>
         <div class='template-bg'>
             <div class="template">
