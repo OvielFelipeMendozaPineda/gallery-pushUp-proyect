@@ -4,7 +4,7 @@
 
 .hero-section {
     position: absolute;
-    width: 100%;
+    width: 50%;
     height: 75vh;
     transform: translateY(-75vh);
     display: flex;
@@ -13,6 +13,7 @@
     align-items: center;
     gap: 2rem; 
     padding: 0 2rem;
+    margin-left: 25vw;
 }
 
 .hero-section h2 {
@@ -86,6 +87,7 @@
 @media (max-width: 480px) {
     .hero-section {
         height: 75vh;
+        width: 50%;
     }
 
     .hero-section h2 {

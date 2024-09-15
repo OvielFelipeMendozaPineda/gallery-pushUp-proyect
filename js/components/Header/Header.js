@@ -15,9 +15,9 @@ class Header extends HTMLElement {
             <h1> <a href="/#"> Art Museum</a> </h1>
         </div>
         <div class="links">
-            <a href="/Exhibitions" class="link"> Exhibitions  </a>
-            <a href="/Gallery" class="link"> Gallery </a>
-            <a href="/Events" class="link"> Events  </a>
+            <a href="/#Exhibitions" class="link"> Exhibitions  </a>
+            <a href="/#Gallery" class="link"> Gallery </a>
+            <a href="/#Events" class="link"> Events  </a>
             <a href="/#Visit" class="link"> Visit </a>
         </div>
         <i class='bx bx-menu'></i>
