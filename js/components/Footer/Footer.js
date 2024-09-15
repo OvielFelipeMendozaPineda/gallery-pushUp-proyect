@@ -7,7 +7,7 @@ class Footer extends HTMLElement {
     render() {
         this.innerHTML = /* html */ `
         <style>
-            @import "./js/components/Footer/Footer.css";
+            @import "./js/components/Footer/style.css";
         </style>
             <footer id="Visit">
         <h2 class="footer-title"> Plan your visit </h2>
